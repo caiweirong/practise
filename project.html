@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta charset=utf-8>
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1 user-scalable=no" >
+    <title>2-7作业</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- header区域 -->
+    <header id="header">
+        <nav class="nav navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-item">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">IMOOC</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                        <!-- 搜索按钮 -->
+                        <li class="nav-right-item">
+                            <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                            <div class="input-item1-box">
+                                <span class="caret"></span>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" >
+                                    <span class="input-group-addon">搜</span>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 登录 -->
+                        <li class="nav-right-item">
+                            <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                            <div class="input-item2-box">
+                                <span class="caret"></span>
+                                <span>Email</span>
+                                <input type="email" class="form-control">
+                                <span>Password</span>
+                                <input type="password" class="form-control">
+                                <button type="button">登录</button>
+                                <div>记住密码 <input type="checkbox"></div>
+                                <div>
+                                    <span class="span-item">新用户？</span>
+                                    <span class="span-item">注册 &nbsp;|</span>
+                                    <span class="span-item">忘记密码？</span>
+                                </div>
+
+                            </div>
+                        </li>
+                        <!-- 购物车 -->
+                        <li class="nav-right-item">
+                            <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                            <div class="input-item3-box">
+                                <span class="caret"></span>
+                                <div>$0.00(0)</div>
+                                <button type="button">空</button>
+                            </div>
+                        </li>
+                </ul>
+                <div class="collapse navbar-collapse" id="nav-item">
+
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item1"><a href="#">首页</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                生日 &nbsp;<span class="caret"></span></a>
+                            <div class="dropdown-menu row">
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">关系</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">朋友</a></li>
+                                    <li><a href="#">爱人</a></li>
+                                    <li><a href="#">姐妹</a></li>
+                                </ul>
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">风味</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">巧克力</a></li>
+                                    <li><a href="#">水果</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                         <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                婚礼 &nbsp;<span class="caret"></span></a>
+                            <div class="dropdown-menu row">
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">关系</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">朋友</a></li>
+                                    <li><a href="#">爱人</a></li>
+                                    <li><a href="#">姐妹</a></li>
+                                </ul>
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">风味</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">巧克力</a></li>
+                                    <li><a href="#">水果</a></li>
+                                </ul>
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">主旋律</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">心形</a></li>
+                                    <li><a href="#">卡通</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                         <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                专用 &nbsp;<span class="caret"></span></a>
+                            <div class="dropdown-menu row">
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">关系</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">朋友</a></li>
+                                    <li><a href="#">爱人</a></li>
+                                    <li><a href="#">姐妹</a></li>
+                                </ul>
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">风味</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">巧克力</a></li>
+                                    <li><a href="#">水果</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                         <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                商铺 &nbsp;<span class="caret"></span></a>
+                            <div class="dropdown-menu row">
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">关系</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">朋友</a></li>
+                                    <li><a href="#">爱人</a></li>
+                                    <li><a href="#">姐妹</a></li>
+                                </ul>
+                                <ul class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                    <li><a href="#" class="menu-item">风味</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">巧克力</a></li>
+                                    <li><a href="#">水果</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner区域 -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-push-1 col-sm-push-1 col-xs-push-1">
+                    <div>
+                        <h1>IMOOC<span>蛋糕</span></h1>
+                        <div class="content">特 别 的 日 子，特 别 的 你</div>
+                        <button type="button">SHOP</button>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-lg-push-2 col-md-push-2 col-sm-push-2 col-xs-push-1">
+                    <img src="image/2.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery区域 -->
+    <section id="gallery">
+        <div class="container">
+            <div class="container-header">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-10">
+                        <div class="image-box">
+                           <img src="image/g1.jpg">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <div class="image2-box">
+                           <img src="image/g2.jpg">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container-center">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="image-box">
+                           <img src="image/g3.png">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="image-box">
+                           <img src="image/g4.png">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="image-box">
+                           <img src="image/g5.png">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="image-box">
+                           <img src="image/g6.png">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="image-box">
+                           <img src="image/g7.png">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="image-box">
+                           <img src="image/g8.png">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="image-box">
+                           <img src="image/g9.png">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="image-box">
+                           <img src="image/g10.png">
+                           <div class="layer">
+                                <div class="container-fluid">
+                                    <span class="glyphicon glyphicon-eye-open"></span>
+                                    <span>View</span>
+                                    <button type="button"></button>
+                                </div>
+                           </div>
+                        </div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <div class="assess"></div>
+                        <span>$95.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe区域 -->
+    <section id="subscribe">
+        <div class="container">
+            <h1>NewSletter</h1>
+            <div class="input-group">
+              <input type="mail" class="form-control" placeholder="Email">
+              <span class="input-group-addon" id="basic-addon2">Subscribe</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-bottom区域 -->
+    <section id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                    <ul>
+                        <li>COMPANY</li>
+                        <li>Products</li>
+                        <li>Work Here</li>
+                        <li>Team</li>
+                        <li>Happenings</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                    <ul>
+                        <li>SERVICE</li>
+                        <li>Support</li>
+                        <li>FAQ</li>
+                        <li>Warranty</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                    <ul>
+                        <li>ORDER&RETURNS</li>
+                        <li>Order Status</li>
+                        <li>Shipping Policy</li>
+                        <li>Return Policy</li>
+                        <li>Digital Gift Card</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                    <ul>
+                        <li>LEGAL</li>
+                        <li>Privacy</li>
+                        <li>Terms And Conditions</li>
+                        <li>Social Responsibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer区域 -->
+    <footer id="footer">
+        <div class="container">
+            <div>Copyright © 2017 imooc.com All Rights Reserved | 京ICP备 13046642号-2</div>
+
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/project.js"></script>
+</body>
+</html>
